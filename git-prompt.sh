@@ -14,7 +14,7 @@ else
 	PS1="$PS1"'\[\033[32m\]'       # change to green
 	PS1="$PS1"'\D{%H:%M} '          # show Time of day
 	PS1="$PS1"'\[\033[105;30m\]'       # change to purple
-	PS1="$PS1"'\u'             # user@host<space>
+	PS1="$PS1"'\[Teknikos\]'             # user@host<space>
 	PS1="$PS1"'\[\033[103;30m\]'       # change to brownish yellow
 	PS1="$PS1"'\w'                 # current working directory
 	if test -z "$WINELOADERNOEXEC"
